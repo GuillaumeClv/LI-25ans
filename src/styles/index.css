@@ -1,0 +1,70 @@
+:root {
+  --blue: #008be3;
+  --blue-light: #E8F6FD;
+	--corail: #f15b4d;
+	--black: #2B2B2B;
+}
+
+body:after {
+	display: flex;
+	background: #e8f6fd;
+	background: var(--blue-light);
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+	content: "";
+	left: 0;
+}
+
+@media (max-width: 768px) {
+	body:after {
+		height: 200px;
+	}
+}
+
+.hide {
+	display: none;
+}
+
+#canvasID {
+	z-index: 10;
+	position: fixed;
+	top: -90px;
+	pointer-events: none;
+}
+
+@media (min-width: 1024px) {
+	body {
+		overflow-y: hidden;
+	}
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../font/Montserrat-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url('../font/OpenSans-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansSemiBold';
+	src: url('../font/OpenSans-SemiBold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url('../font/OpenSans-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}

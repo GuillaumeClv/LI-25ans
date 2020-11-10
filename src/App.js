@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import './styles/App.css';
+import content    from './content'
+import Home       from './components/Home'
+import NavBar     from './components/NavBar'
+import Slider     from './components/Slider'
+import Parallaxe  from './components/Parallaxe'
 
-function App() {
+export default function App() {
+  const [display, setDisplay] = useState("home");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar 
+        display={display}
+        setDisplay={setDisplay}
+      />
+      <Parallaxe />
+      {
+        display === "home"
+          ? <Home
+              display={display}
+              setDisplay={setDisplay}
+            />
+          : <Slider content={content} />
+      }
     </div>
   );
 }
-
-export default App;

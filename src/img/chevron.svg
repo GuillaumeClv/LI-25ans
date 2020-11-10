@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="38px" viewBox="0 0 23 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01.atoms/01.icon/02.fill/01.medium/chevron-down copy</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.168627 0 0 0 0 0.168627 0 0 0 0 0.168627 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <polygon id="path-2" points="0 0 37.8 0 37.8 22 0 22"></polygon>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LI_25ans_Landing_Desktop_Article" transform="translate(-1379.000000, -493.000000)">
+            <g id="Group-3" transform="translate(1390.500000, 512.000000) rotate(-90.000000) translate(-1390.500000, -512.000000) translate(1371.500000, 501.000000)" filter="url(#filter-1)">
+                <g transform="translate(0.100000, 0.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M35.9576192,0.610185822 C35.567938,0.226510668 35.0494898,0.0151410874 34.4953926,0.0151410874 C33.9416028,0.0151410874 33.42254,0.226510668 33.0328588,0.610185822 L18.9084513,14.5285547 L4.76775584,0.594741913 C4.37868926,0.211066758 3.8596265,0 3.30583663,0 C2.75204676,0 2.23267669,0.211066758 1.84330279,0.594741913 L0.604804917,1.8157192 C-0.201601639,2.60971783 -0.201601639,3.90306951 0.604804917,4.69706813 L17.4410003,21.3465107 C17.8300669,21.7299587 18.348515,22 18.907222,22 L18.9136757,22 C19.4677729,22 19.986221,21.7295802 20.3752876,21.3465107 L37.1958097,4.74218858 C37.5854909,4.35881624 37.7993854,3.83251204 37.8,3.28682725 C37.8,2.74083964 37.5854909,2.22180317 37.1958097,1.83873365 L35.9576192,0.610185822 Z" id="Fill-1" fill="#000000" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
